@@ -16,7 +16,7 @@ def frequencies(items):
             elif x==list[i]:
                 count += 1
             x=list[i]
-            i +=1
+            i += 1
         else:
             frequencies[x]=count
     return frequencies
